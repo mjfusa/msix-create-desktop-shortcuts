@@ -1,6 +1,6 @@
 # Sample - MSIX Create Desktop Shortcuts
 
-See the Microsoft TechCommunity post here XXXLINKXXX for more information:
+See the Microsoft TechCommunity Windows Dev AppConsult blog post [here](https://techcommunity.microsoft.com/t5/windows-dev-appconsult/msix-create-desktop-shortcuts-with-package-support-framework-and/ba-p/3300891) for more information:
 
 ## In this repo
 
