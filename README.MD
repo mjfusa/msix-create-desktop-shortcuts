@@ -6,7 +6,7 @@ See the Microsoft TechCommunity Windows Dev AppConsult blog post [here](https://
 
 ```ScriptInPackage\CreateShortcuts.ps1``` - First time run script that creates desktop icons for application.
 
-```CreateManifestAndConfigForPSF.ps1``` - 'Prep script'. Creates new AppxManifest files based on existing manifest, config.json for Package Support Framework, and Icons extracted from desktop application.
+```CreateManifestAndConfigForPSF.ps1``` - 'Prep script'. Creates a new AppxManifest file based on the existing manifest, config.json for Package Support Framework, and Icons extracted from the desktop application.
 
 ```Sample-Manifest-Config``` - Sample ```AppxManifestNew.xml``` and ```config.json``` files.
 
@@ -43,7 +43,7 @@ You will need to start with an existing MSIX packaged app.
 
 3) Run the script ```CreateManifestAndConfigForPSF.ps1``` in the same folder where you have saved the extracted the application.
 
-4) After running the script, the icon(s) are extracted, converted to **ico** files and saved to the 'Icons' folder. Also ```AppxmanifestNew.xml``` and ```config.json``` are created. ```config.json``` is required by the Package Support Framework. You will replace the existing manifest with the contents of ```AppxmanifestNew.xml```.
+4) After running the script, the icon(s) are extracted, converted to **ico** files and saved to the created 'Icons' folder. Also ```AppxmanifestNew.xml``` and ```config.json``` are created. ```config.json``` is required by the Package Support Framework. You will replace the existing manifest with the contents of ```AppxmanifestNew.xml```.
 
 ### Update your MSIX Package with the MSIX Packaging Tool
 
